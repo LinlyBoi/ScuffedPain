@@ -131,6 +131,7 @@ public class DrawingBoard extends Panel implements DrawingEngine
 
     public void setShapeButtons(ArrayList<Button> buttons)
     {
+        ShapeButtons.removeAll();
         for (Button button : buttons)
         {
             ShapeButtons.add(button);
